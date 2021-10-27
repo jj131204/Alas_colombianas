@@ -1,196 +1,196 @@
 INSERT INTO family(fa_familyName,or_id)
 VALUES
     (
-        "TINAMIDAE",1,
+        "TINAMIDAE",1,1
     ),
     (
-        "ANHIMIDAE",2
+        "ANHIMIDAE",2,2
     ),
     (
-        "ANATIDAE",3
+        "ANATIDAE",3,2
     ),
     (
-        "CRACIDAE",4
+        "CRACIDAE",4,3
     ),
     (
-        "ODONTOPHORIDAE",5
+        "ODONTOPHORIDAE",5,3
     ),
     (
-        "PODICIPEDIDAE",6
+        "PODICIPEDIDAE",6,4
     ),
     (
-        "PELECANIDAE",7
+        "PELECANIDAE",7,5
     ),
     (
-        "SULIDAE",8
+        "SULIDAE",8,6
     ),
     (
-        "PHALACROCORACIDAE",9
+        "PHALACROCORACIDAE",9,6
     ),
     (
-        "ANHINGIDAE",10
+        "ANHINGIDAE",10,5
     ),
     (
-        "FREGATIDAE",11
+        "FREGATIDAE",11,6
     ),
     (
-        "ARDEIDAE",12
+        "ARDEIDAE",12,5
     ),
     (
-        "THRESKIORNITHIDAE",13
+        "THRESKIORNITHIDAE",13,7
     ),
     (
-        "CICONIIDAE",14
+        "CICONIIDAE",14,7
     ),
     (
-        "CATHARTIDAE",15
+        "CATHARTIDAE",15,11
     ),
     (
-        "PHOENICOPTERIDAE",16
+        "PHOENICOPTERIDAE",16,9
     ),
     (
-        "PANDIONIDAE",17
+        "PANDIONIDAE",17,11
     ),
     (
-        "ACCIPITRIDAE",18
+        "ACCIPITRIDAE",18,10
     ),
     (
-        "ARAMIDAE",19
+        "ARAMIDAE",19,12
     ),
     (
-        "RALLIDAE",20
+        "RALLIDAE",20,12
     ),
-        "CHARADRIIDAE",21
-    ),
-    (
-        "RECURVIROSTRIDAE",22
+        "CHARADRIIDAE",21,13
     ),
     (
-        "BURHINIDAE",23
+        "RECURVIROSTRIDAE",22,13
     ),
     (
-        "SCOLOPACIDAE",24
+        "BURHINIDAE",23,13
     ),
     (
-        "JACANIDAE",25
+        "SCOLOPACIDAE",24,13
     ),
     (
-        "LARIDAE",26
+        "JACANIDAE",25,13
     ),
     (
-        "RYNCHOPIDAE",27
+        "LARIDAE",26,13
     ),
     (
-        "COLUMBIDAE",28
+        "RYNCHOPIDAE",27,13
     ),
     (
-        "PSITTACIDAE",29
+        "COLUMBIDAE",28,14
     ),
     (
-        "HAEMATOPODIDAE",30
+        "PSITTACIDAE",29,15
     ),
     (
-        "CUCULIDAE ",31
+        "HAEMATOPODIDAE",30,13
     ),
     (
-        "TYTONIDAE",32
+        "CUCULIDAE ",31,16
     ),
     (
-        "STRIGIDAE",33
+        "TYTONIDAE",32,17
     ),
     (
-        "NYCTIBIIDAE",34
+        "STRIGIDAE",33,17
     ),
     (
-        "CAPRIMULGIDAE",35
+        "NYCTIBIIDAE",34,18
     ),
     (
-        "APODIDAE",36
+        "CAPRIMULGIDAE",35,18
     ),
     (
-        "TROCHILIDAE",37
+        "APODIDAE",36,19
     ),
     (
-        "ALCEDINIDAE",38
+        "TROCHILIDAE",37,19
     ),
     (
-        "MOMOTIDAE",39
+        "ALCEDINIDAE",38,20
     ),
     (
-        "GALBULIDAE",40
+        "MOMOTIDAE",39,20
     ),
     (
-        "BUCCONIDAE",41
+        "GALBULIDAE",40,22
     ),
     (
-        "RAMPHASTIDAE",42
+        "BUCCONIDAE",41,22
     ),
     (
-        "PICIDAE",43
+        "RAMPHASTIDAE",42,21
     ),
     (
-        "THAMNOPHILIDAE",44
+        "PICIDAE",43,21
     ),
     (
-        "FURNARIIDAE",45
+        "THAMNOPHILIDAE",44,21
     ),
     (
-        "TYRANNIDAE",46
+        "FURNARIIDAE",45,21
     ),
     (
-        "PIPRIDAE",47
+        "TYRANNIDAE",46,21
     ),
     (
-        "TITYRIDAE",48
+        "PIPRIDAE",47,23
     ),
     (
-        "VIREONIDAE",49
+        "TITYRIDAE",48.23
     ),
     (
-        "CORVIDAE",50
+        "VIREONIDAE",49,23
     ),
     (
-        "HIRUNDINIDAE",51
+        "CORVIDAE",50,23
     ),
     (
-        "TROGLODYTIDAE",52
+        "HIRUNDINIDAE",51,23
     ),
     (
-        "POLIOPTILIDAE",53
+        "TROGLODYTIDAE",52,23
     ),
     (
-        "DONACOBIIDAE",54
+        "POLIOPTILIDAE",53,23
     ),
     (
-        "TURDIDAE",55
+        "DONACOBIIDAE",54,23
     ),
     (
-        "MIMIDAE",56
+        "TURDIDAE",55,23
     ),
     (
-        "THRAUPIDAE",57
+        "MIMIDAE",56,23
     ),
     (
-        "EMBERIZIDAE",58
+        "THRAUPIDAE",57,23
     ),
     (
-        "CARDINALIDAE",59
+        "EMBERIZIDAE",58,23
     ),
     (
-        "PARULIDAE",60
+        "CARDINALIDAE",59,23
     ),
     (
-        "ICTERIDAE",61
+        "PARULIDAE",60,23
     ),
     (
-        "FRINGILLIDAE",62
+        "ICTERIDAE",61,23
     ),
     (
-        "CAPRIMULGIDAE",63
+        "FRINGILLIDAE",62,23
     ),
     (
-        "TROCHILIDAE",64
+        "CAPRIMULGIDAE",63,18
     ),
     (
-        "FALCONIDAE",65
+        "TROCHILIDAE",64,19
+    ),
+    (
+        "FALCONIDAE",65,11
     );
