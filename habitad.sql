@@ -2,40 +2,61 @@ INSERT INTO "habitats" ("ha_name", "ha_description")
 VALUES
     (
         "Estuarios",
-        "No esa aun"
+        "No esa aun",
+        1
     ),
-    VALUES
     (
         "Playas",
-        "No esa aun"
+        "No esa aun",
+        2
     ),
-    VALUES
-    (
+    (,3
         "Manglares",
-        "No esa aun"
+        "No esa aun",
+        3
     ),
-    VALUES
     (
         "Bosque seco",
-        "No esa aun"
+        "No esa aun",
+        4
     ),
-    VALUES
     (
         "Cuerpos de agua dulce",
-        "No esa aun"
+        "No esa aun",
+        5
     ),
-    VALUES
     (
         "Pastizales",
-        "No esa aun"
+        "No esa aun",
+        6
     ),
-    VALUES
     (
         "Matorrales",
-        "No esa aun"
+        "No esa aun",
+        7
     ),
-    VALUES
     (
         "Zonas urbanas",
-        "No esa aun"    
+        "No esa aun",
+        8
+    ),
+    (
+        "Bosques húmedos",
+        "No esta aun",
+        9
+    ),
+    (
+        "Aguas costeras",
+        "No esta aun"
+        10
+    ),
+    (
+        "Pantanos",
+        "No esta aun",
+        11
+    )
+    (
+        "Humedales de agua salada",
+        "No esta aun"
+        12
     );
