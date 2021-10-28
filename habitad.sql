@@ -10,7 +10,7 @@ VALUES
         "No esa aun",
         2
     ),
-    (,3
+    (
         "Manglares",
         "No esa aun",
         3
@@ -47,16 +47,16 @@ VALUES
     ),
     (
         "Aguas costeras",
-        "No esta aun"
+        "No esta aun",
         10
     ),
     (
         "Pantanos",
         "No esta aun",
         11
-    )
+    ),
     (
-        "Humedales de agua salada",
+        "Humedales",
         "No esta aun"
         12
     );
