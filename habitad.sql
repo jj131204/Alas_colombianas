@@ -59,4 +59,9 @@ VALUES
         "Humedales",
         "No esta aun"
         12
+    ),
+    (
+        "Claros de bosque",
+        "No esta aun"
+        13
     );
