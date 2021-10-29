@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS family(
 CREATE TABLE IF NOT EXISTS gender(
     ge_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
     ge_GenderName VARCHAR(100) NOT NULL,
-    fa_id INT NO NULL,
+    fa_id INT NOT NULL,
     CONSTRAINT fk_gender_familyId FOREIGN KEY (fa_id) REFERENCES family(fa_id)
 )ENGINE=InnoDB;
 
