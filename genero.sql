@@ -1,4 +1,4 @@
-INSERT INTO gender (ge_GenderName,fa_id)
+INSERT INTO gender (ge_GenderName,ge_id,fa_id)
 VALUES
 ("Tinamus",1,1),
 ("Crypturellus",2, 1),
