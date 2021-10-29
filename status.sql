@@ -1,8 +1,8 @@
-INSERT INTO "estatus" ("es_name",)
+NSERT INTO "estatus" ("es_name",)
 VALUES
     (
-        "Amenazado"
+        "Amenazado",1
     ),
     (
-        "No amenazado"
+        "No amenazado",2
     );

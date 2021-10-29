@@ -62,6 +62,6 @@ VALUES
     ),
     (
         "Claros de bosque",
-        "No esta aun"
+        "No esta aun",
         13
     );

@@ -72,7 +72,6 @@ VALUES
 ("Burhinus",70,23),
 ("Gallinago",71,24),
 ("Numenius",72,24),
-("Barthramia",73,24),
 ("Actitis",74,24),
 ("Tringa",75,24),
 ("Arenaria",76,24),
