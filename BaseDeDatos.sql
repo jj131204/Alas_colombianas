@@ -1,18 +1,11 @@
-CREATE DATABASE IF NOT EXISTS Prueba4;
-USE Prueba4;
 
 CREATE TABLE IF NOT EXISTS orders(
     or_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
     or_name VARCHAR(100) NOT NULL,
     or_description TEXT
 )ENGINE=InnoDB;
-
-CREATE TABLE IF NOT EXISTS estatus(
-    es_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
-    es_name VARCHAR(100) NOT NULL,
-    es_description TEXT
-)ENGINE=InnoDB;
-
+  
+  
 CREATE TABLE IF NOT EXISTS habitats(
     ha_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
     ha_name VARCHAR(300) NOT NULL,
@@ -28,22 +21,20 @@ CREATE TABLE IF NOT EXISTS family(
 )ENGINE=InnoDB;
 
 CREATE TABLE IF NOT EXISTS gender(
-    ge_id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    ge_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
     ge_GenderName VARCHAR(100) NOT NULL,
     fa_id INT NO NULL,
     CONSTRAINT fk_gender_familyId FOREIGN KEY (fa_id) REFERENCES family(fa_id)
 )ENGINE=InnoDB;
 
 CREATE TABLE IF NOT EXISTS species(
-    sp_id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    sp_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
     sp_vulgarName VARCHAR(100) NOT NULL,
     sp_CientificName VARCHAR(200) NOT NULL,
     img_name VARCHAR(100) NOT NULL,
-    ha_id INT NO NULL,
-    es_id INT NO NULL,
-    ge_id INT NO NULL,
+    ha_id INT NOT NULL,
+    ge_id INT NOT NULL,
     CONSTRAINT fk_sp_habitatsId FOREIGN KEY (ha_id) REFERENCES habitats(ha_id),
-    CONSTRAINT fk_sp_estatusId FOREIGN KEY (es_id) REFERENCES estatus(es_id),
     CONSTRAINT fk_sp_genderId FOREIGN KEY (ge_id ) REFERENCES gender(ge_id)
 )ENGINE=InnoDB;
 
