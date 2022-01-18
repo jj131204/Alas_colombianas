@@ -1,0 +1,606 @@
+body{
+    background-color: #EAEAEA;
+    margin:0px;
+
+    padding:0px;
+  }
+  
+  .all{
+    background-color:#FEFEFE;
+    margin-left: 2%;
+    margin-right:2% ;
+    margin-top: -4%;
+    
+    
+  }
+  
+  /*section header*/
+  
+  header{
+    position: fixed;
+    margin-top:2%;
+    background-color: white;
+    width:100%;
+    height:77px;
+    box-shadow: 5px 1px 10px #707070;
+    z-index: 1;
+    margin-bottom: none;
+  }
+  .logo img{
+    margin-top:-20px;
+    width:100px;
+    height:77px;
+  
+  }
+  
+  .test{
+    margin-top:-2%;
+  }
+  .wrapper{
+      max-width: 1200px;
+          width: 90%;
+          margin: 0px auto;
+          /*FlexBox*/
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+  }
+  
+  .uno_solo {
+  /*FlexBox*/
+  display: flex;
+  flex-wrap: no-wrap;
+  }
+  
+  nav{
+    display: inline-block;
+    margin-left:-17%;
+  }
+  
+  ul {
+      list-style: none;
+      display: inline-block;
+      text-decoration: none;
+    }
+  li {
+      margin-top:-10%;
+      display: inline-block;
+  
+      padding-right: 63px;
+      cursor: pointer;
+      text-decoration: none;
+  }
+  li a{
+  
+    text-decoration: none;
+    font-size:22px;
+    font-family: 'Ubuntu ligth';
+    color:#7BBE4A;
+  }
+  /*buscador  del header*/
+  
+  .search{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+    border: 50px;
+    border-color:#707070;
+    /*background:#ffffff;*/
+  }
+  
+  .input_search{
+    text-decoration:none;
+    border:none;
+    margin-right:5px;
+    width:auto;
+  }
+  /*.input_search:hover{
+    width:200%;
+    z-index: 2;
+  }*/
+  
+  
+  /*opciones de busqueda header (habitats -  peligro de extincion) */
+  .options_s_header{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
+  
+  .options_search_header{
+    width:166px;
+    height:61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 8px 6px #707070 ;
+    background-color: #FEFEFE;
+  }
+  
+  .options_search_header a{
+    text-decoration: none;
+    color:#707070;
+    font-size:20px;
+  }
+  
+  
+  
+  
+  /*finish header*/
+  
+  /*seccion hero*/
+  .hero{
+      height: 100%;
+      width:100%;
+      background: url("imagenes/hero.PNG") fixed center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+  }
+  
+  .title{
+    color:#FEFEFE;
+    margin-top:10%;
+    margin-bottom:-1%;
+    margin-left: 7.5%;
+    font-size: 36px;
+    font-family: 'Fira Sans ligth';
+  }
+  
+  .text_hero{
+    color:#FEFEFE;
+    margin-left:7.5%;
+    font-family: 'Ubuntu ligth';
+    font-size:25px;
+    margin-bottom: -20px;
+  }
+  /*finish hero*/
+  
+  
+  /*section  (Mapa interactivo)*/
+  
+  .title_map{
+    font-family: 'Fira Sans ligth' ;
+    font-size: 48px;
+    color:#7BBE4A;
+  
+  }
+  
+  .subtitle_map{
+    font-family: 'Ubuntu regular' ;
+    font-size: 20px;
+    color:#707070;
+  }
+  
+  
+  .interactive_map{
+    padding:5%;
+    
+  
+  }
+  
+  .grid_map{
+    display: grid;
+    grid-template-columns: 105%;
+    grid-template-rows: 400px;
+    column-gap:3em;
+    margin-right: 5%;
+  
+  
+  }
+  
+  #map{
+    width: 100%;
+  
+  }
+  
+  #list_bird{
+    display: grid;
+    row-gap: 3em;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-right: 10%*/;
+  }
+  
+  .list_bird h2{
+    font-family: 'Fira Sans ligth' ;
+    font-size: 25px;
+    color:#7BBE4A;
+  }
+  
+  .boton_aves{
+    align-content: center;
+    margin-top:5%;
+    height:100%;
+    width:25%;
+    border:None;
+    box-shadow: 5px 8px 6px #707070 ;
+    background-color: #FEFEFE;
+    text-decoration: none;
+    color:#707070;
+    font-size:25px;
+    font-family: 'Fira Sans ligth';
+  }
+  
+  
+  /*finish (mapa interactvio)*/
+  
+  /*Buscador*/
+  
+  .square{
+    width:80%;
+    border-radius: 36px;
+    border:5px;
+    margin: 30px auto;
+    box-shadow: 5px 8px 6px #707070 ;
+    background-color:#EAEAEA;
+    margin-top:5%;
+  }
+  
+  
+  .big_search h2{
+    font-family: 'Fira Sans ligth' ;
+    font-size: 25px;
+    color:#7BBE4A;
+  }
+  
+  
+  .logo_b_search{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+    border: 50px;
+    border-color:#4199EF;
+  }
+  .big_input_search{
+    width:95%;
+    align-items: center;
+   /* background-color: #4199EF;*/
+  }
+  
+  
+  .b_search{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+    border: 50px;
+    border-color:#424242;
+  
+  }
+  
+  .big_input_search{
+    text-decoration:none;
+    border:1px;
+    margin-right:5px;
+  }
+  
+  
+  
+  .options_s{
+    display:grid;
+    grid-template-columns: 1fr;
+    column-gap: 43px;
+  }
+  
+  .options_search{
+    /*width:100%;*/
+    height:81px;
+    margin:5% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 8px 6px #707070 ;
+    background-color: #FEFEFE;
+  }
+  
+  .options_search a{
+    text-decoration: none;
+    color:#707070;
+    font-size:25px;
+  }
+  
+  
+  /*resultado de busqueda*/
+  
+  
+  .border1{
+    padding-left:10%;
+    margin-top:5%;
+  }
+  
+  /*finish resultado de busqueda*/
+  
+  /*finish buscador*/
+  
+  /* section (quienes somos)*/
+  
+  
+  
+  .team{
+    padding: 5%;
+  }
+  
+  .team_title{
+    text-align: center;
+    font-family: 'Fira Sans ligth' ;
+    font-size: 48px;
+    color:#7BBE4A;
+  }
+  
+  
+  .team_members{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:60px;
+  }
+  .img_team{
+    height:200px;
+    width: 100%;
+    border-radius: 20px;
+    /*margin:11%;*/
+  }
+  .names_team{
+    text-align: center;
+    font-family: 'Ubuntu regular' ;
+    font-size: 20px;
+    color:#707070;
+  }
+  
+  
+  /*finish (quienes somos)*/
+  
+  /*Nuestra historia*/
+  
+  .title_history{
+    font-family: 'Fira Sans ligth' ;
+    font-size: 48px;
+    color:#7BBE4A;
+  }
+  
+  .history_alas p{
+    font-family: 'Ubuntu regular' ;
+    font-size: 20px;
+    color:#707070;
+    margin:auto 7%;
+  }
+  /*finish nuestra historia*/
+  
+  /*-----------------------------------------------------------------------------------------------------*/
+  
+  /*habitat.html*/
+  .secc_habitat{
+    padding-bottom:72px ;
+  }
+  
+  /*titulo (Especies por  habitat*/
+  .title_habitat{
+    padding-top: 69px;
+    padding-bottom: 62px;
+    text-align:center;
+    margin-left:-5%;
+    color:#707070;
+    font-size:30px;
+  }
+  
+  
+  /*grillas delas habitats*/
+  
+  .secc_habitat{
+    padding-left:5% ;
+  }
+  
+  .grid_hibitat{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 49px;
+  }
+  
+  .grid_hibitat > div{
+    background-color: #63AEF9;
+    width: 292px;
+    height: 121px;
+    box-shadow: 5px 8px 6px #4199EF inset;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid_hibitat > div > a{
+    color:#FEFEFE;
+    font-size: 25px;
+    text-decoration:none;
+  }
+
+  /*finish  habitat.html*/
+  /*-----------------------------------------------------------------------------------------------------*/
+
+  /*H_especies.html    and  P_extincion.html     (mismo diseño diferente informacion)*/
+
+  .secc_especies{
+    padding-bottom:72px;
+    padding-left:5%;
+    padding-right:2%;
+  }
+
+
+
+  .title_especies{
+    padding-top: 15%;
+    padding-bottom: 62px;
+    text-align:center;
+    margin-left:-5%;
+    color:#707070;
+  
+    font-size:30px;
+
+  }
+
+  /*grilla externa*/
+
+  .grid_especies{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 99px;
+    row-gap: 77px;
+  }
+
+  .grid_into{
+    /*colores y tama;o*/
+
+    width: 449px;
+    height: 152px;
+    column-gap: 37px;
+  
+    /*grilla*/
+  
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  /*imagenes del ave*/
+  .img_especies{
+    width: 223px;
+    height: 152px;
+  }
+  /*nombre cientifico del avve*/
+  .scientific_name{
+    color:#7BBE4A;
+    font-family: 'Fira Sans SemiBold Italic';
+    font-size: 25px;
+  }
+  
+  /*nombre comun y nombre en ingles*/
+  .common_name, .english_name{
+    color:#707070;
+    margin:0px;
+    font-family: 'Fira Sans ligth';
+    font-size: 25px;
+  }
+
+
+  /*finish H_especies.html*/
+
+  /*Ave.html*/
+
+  .all_final{
+    /*margin-top:
+    padding-left: 15%;
+    padding-top: 5%;*/
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+  }
+
+
+  .description_final{
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-left:-10%;
+  }
+  
+  .img_final{
+     width:250px;
+    height:300px;
+    /*background-color: #4199EF;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+  }
+  
+  .img_final img{
+   width: 100%;
+   height: 100%;
+   border-radius: 5px;
+  }
+
+  a  img {
+   width: 100%;
+   height: 100%;
+   border-radius: 5px;
+  }
+
+  
+  
+  /*.names_title{
+    color:#7BBE4A;
+    font-size:25px;
+    font-family: 'Fira Sans SemiBold Italic';
+   /* margin-bottom:13px;
+    margin-top:36px;
+  }*/
+  .names_title{
+      color:#7BBE4A;
+      font-size:25px;
+      font-family: 'Fira Sans SemiBold Italic';
+      margin-bottom:5px;
+      margin-top:5px;
+      margin-left: 10%;
+    }
+  
+  .names_final{
+    color:#707070;
+    font-size:25px;
+    font-family: 'Fira Sans SemiBold Italic';
+    margin-bottom: 5px;
+    margin-left:10%;
+  }
+  /*
+  .names_final{
+    color:#707070;
+    font-size:25px;
+    font-family: 'Fira Sans SemiBold Italic';
+    margin-bottom: 90px;
+  }*/
+  
+  
+  .description_ave{
+    margin:10%;
+    margin-top:2%;
+    
+  }
+  
+  .description_ave p{
+    color:#707070;
+    font-size: 20px ;
+    font-family: 'Fira Sans SemiBold Italic' ;
+  }
+  
+  .description_ave div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#7BBE4A;
+    font-size: 25px;
+    font-family:'Fira Sans SemiBold Italic';
+  }
+  
+  /*finish Ave.html*/
+
+
+  /*Footer*/
+
+footer{
+  background-color:lightblue;
+}
+
+footer h2 {
+  text-align: center;
+}
+
+
+
+
+/*Cierre footer*/

@@ -1,0 +1,170 @@
+
+body{
+    background-color: #EAEAEA;
+    margin:0px;
+
+    padding:0px;
+  }
+  
+  .all{
+    background-color:#FEFEFE;
+    margin-top: -4%;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+  /*section header*/
+  
+  header{
+    position: fixed;
+    margin-top:2%;
+    background-color: white;
+    width:100%;
+    height:77px;
+    box-shadow: 5px 1px 10px #707070;
+    z-index: 1;
+    margin-bottom: none;
+  }
+  .logo img{
+    margin-top:-20px;
+    width:100px;
+    height:77px;
+  
+  }
+   
+  .uno_solo {
+    /*FlexBox*/
+    display: flex;
+    flex-wrap: no-wrap;
+    }
+    
+    nav{
+      display: inline-block;
+      margin-left:-17%;
+    }
+    
+    ul {
+        list-style: none;
+        display: inline-block;
+        text-decoration: none;
+      }
+    li {
+        margin-top:-10%;
+        display: inline-block;
+    
+        padding-right: 63px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    li a{
+    
+      text-decoration: none;
+      font-size:22px;
+      font-family: 'Ubuntu ligth';
+      color:#7BBE4A;
+    }
+
+    .wrapper{
+        max-width: 1200px;
+            width: 90%;
+            margin: 0px auto;
+            /*FlexBox*/
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    }
+    
+.all_final{
+    /*margin-top:*/
+    padding-left: 15%;
+    padding-top:5px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 76px;
+  }
+  
+  .description_final{
+    display:grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .img_final{
+     width:370px;
+    height: 500px;
+    /*background-color: #4199EF;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .img_final img{
+   width: 425px;
+   height:400px;
+  }
+  
+  .names_title{
+    color:#7BBE4A;
+    font-size:25px;
+    font-family: 'Fira Sans SemiBold Italic';
+    margin-bottom:0px;
+    margin-top:13px;
+  }
+  
+  .names_final{
+    color:#707070;
+    font-size:25px;
+    font-family: 'Fira Sans SemiBold Italic';
+    margin-bottom: 5px;
+  }
+  
+  
+  .description_ave{
+    margin:10%;
+    margin-top:2%;
+    
+  }
+  
+  .description_ave p{
+    color:#707070;
+    font-size: 20px ;
+    font-family: 'Fira Sans SemiBold Italic' ;
+  }
+  
+  .description_ave div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#7BBE4A;
+    font-size: 25px;
+    font-family:'Fira Sans SemiBold Italic';
+  }
+  
+@media screen and (max-width: 800px){
+  .all_final{
+    margin-left:auto;
+    margin-right: auto;
+    grid-template-columns: 1fr;
+  }
+    }
+
+
+@media screen and (max-width: 600px){
+  .all{
+    /*background-color: red;*/
+        width: 100%;
+
+    }
+    .uno_solo{  
+      color: inherit;
+      text-decoration: none;
+      display: block;
+      padding: 10px 20px;
+      border-bottom: 2px solid #456789;
+      max-width: 200px;
+      background: #234567;
+      font-variant: small-caps;
+      text-shadow: 1px 1px black;
+    }
+}
