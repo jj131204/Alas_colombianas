@@ -40,7 +40,7 @@
       
           <?php
           // Te recomiendo utilizar esta conección, la que utilizas ya no es la recomendada. 
-          $link = new mysqli("localhost", "pma", "alas_colombianas", "alas_colombianas");// el campo vaciío es para la password. 
+          $link = new mysqli("localhost", "root", "", "alas_colombianas");// el campo vaciío es para la password. 
           
           $id_ave =  $_GET['identi_ave'];
           ?>

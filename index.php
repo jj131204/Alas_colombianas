@@ -69,7 +69,7 @@
 
                   <?php
 
-    $link = new mysqli("localhost", "pma", "alas_colombianas", "alas_colombianas");
+    $link = new mysqli("localhost", "root", "", "alas_colombianas");
 
     if (isset($_GET['enviar'])){
       $busqueda =  $_GET['buscar'];

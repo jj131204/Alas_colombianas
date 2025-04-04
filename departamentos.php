@@ -40,7 +40,7 @@
       
           <?php
           // Te recomiendo utilizar esta conección, la que utilizas ya no es la recomendada. 
-          $link = new mysqli("70.32.23.72", "juristas_alasco", "alas2021", "juristas_alasco"); // el campo vaciío es para la password. 
+          $link = new mysqli("localhost", "root", "", "alas_colombianas"); //el campo vaciío es para la password. 
           
           $id_ave =  $_GET['identi_ave'];
           ?>
@@ -61,7 +61,7 @@ FROM orders ord
 INNER JOIN family fa ON ord.or_id=fa.or_id
 INNER JOIN gender ge ON fa.fa_id=ge.fa_id
 INNER JOIN species sp ON ge.ge_id=sp.ge_id
-INNER JOIN habitats ha ON ha.ha_id=sp.ha_id  WHERE  sp.de_id = $id_ave ") as $row){ // aca puedes hacer la consulta e iterarla con each. ?> 
+INNER JOIN habitats ha ON ha.ha_id=sp.ha_id  WHERE  sp.de_id = $id_ave ") as $row){  ?> 
 		
     <div class = "border">
       <div  class = "all_final">

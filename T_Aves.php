@@ -39,7 +39,7 @@
             
           <?php
           // Te recomiendo utilizar esta conección, la que utilizas ya no es la recomendada. 
-          $link = new mysqli("localhost", "pma", "alas_colombianas", "alas_colombianas");// el campo vaciío es para la password. 
+          $link = new mysqli("localhost", "root", "", "alas_colombianas");// el campo vaciío es para la password. 
           ?>
           <div class ="grid_especies">
           <?php foreach ($link->query("SELECT
@@ -61,7 +61,7 @@ INNER JOIN habitats ha ON ha.ha_id=sp.ha_id ") as $row){ // aca puedes hacer la 
     <div class = "border">
       <div  class = "all_final">
         <div class = "img_final">
-          <a target= "blank" href="Ave.php?identi_ave=<?= $row['ave_id']; ?>"  ><img class = "logo_search"  src= "ImagenesDB/<?php echo $row['img'] ?>"> </a>
+          <a target= "blank" href="Ave.php?identi_ave=<?= $row['ave_id']; ?>"  ><img class="logo_search"  src= "ImagenesBD/<?php echo $row['img'] ?>"> </a>
         </div>
         <div class = "desciption_final">
           <div class = "names_title"> Nombre común </div>

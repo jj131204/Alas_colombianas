@@ -46,7 +46,7 @@
         
           // Te recomiendo utilizar esta conección, la que utilizas ya no es la recomendada. 
           //$link = new mysqli("70.32.23.72", "juristas_alasco", "alas2021", "juristas_alasco"); 
-           $link = new mysqli("localhost", "pma", "alas_colombianas", "alas_colombianas");// el campo vaciío es para la password. 
+           $link = new mysqli("localhost", "root", "", "alas_colombianas");// el campo vaciío es para la password. 
           ?>
           <div class ="grid_especies">
           <?php
